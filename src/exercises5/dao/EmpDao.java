@@ -129,7 +129,7 @@ public class EmpDao {
 		}
 		return numRow;
 	}
-	
+	//引数に指定された従業員IDを受け取り、employee表から削除
 	public int deleteEmpData(int emp)throws SQLException{
 		int num = 0;
 		PreparedStatement pstatement = null;
